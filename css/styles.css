@@ -9,9 +9,14 @@ html {
       font-size: 24px;
       font-size: 2.4rem; }
     html body a {
-      text-decoration: none; }
+      text-decoration: none !important;
+      color: #fff !important; }
     html body a:hover {
-      text-decoration: none; }
+      color: white !important;
+      text-decoration: none !important;
+      cursor: pointer !important; }
+    html body *:focus {
+      outline: 0 !important; }
     html body input {
       font-size: 1rem;
       font-weight: bold;
@@ -165,9 +170,14 @@ body #dest-info {
 body footer {
   background-color: #ff553d; }
   body footer address a {
+    text-decoration: none !important;
     font-size: 1.5rem;
     line-height: 2.5rem;
     color: #fff; }
+  body footer address a:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer; }
   body footer .rights p {
     color: #fff;
     font-size: 13px;

@@ -115,9 +115,15 @@ body {
     background-color: $landing-page-bg;
     address {
       a {
+        text-decoration: none !important;
         font-size: 1.5rem;
         line-height: 2.5rem;
         color: $white;
+      }
+      a:hover {
+        color:white;
+        text-decoration:none;
+        cursor:pointer;
       }
     }
 

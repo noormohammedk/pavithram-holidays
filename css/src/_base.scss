@@ -16,11 +16,18 @@ html {
     }
 
     a {
-      text-decoration: none;
+      text-decoration: none !important;
+      color: $white !important;
     }
 
     a:hover {
-      text-decoration: none;
+      color:white !important;
+      text-decoration:none !important;
+      cursor:pointer !important;
+    }
+
+    *:focus {
+       outline: 0 !important;
     }
 
     input {
