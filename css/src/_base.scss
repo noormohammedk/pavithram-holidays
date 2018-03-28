@@ -1,0 +1,33 @@
+html {
+  font-size: 16px;
+
+
+  body {
+    font-size: 14px;
+    font-size: 1.4rem;
+
+    img {
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-size: 2.4rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    input {
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 50px;
+      padding: 10px 0;
+    }
+  }
+}

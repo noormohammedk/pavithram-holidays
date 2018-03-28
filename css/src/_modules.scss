@@ -1,0 +1,90 @@
+body {
+  #landing-page{
+    .container-fluid {
+      background-color: $landing-page-bg;
+      nav {
+        &.nav-settings {
+          background-color: $dark-clouds;
+          color: $white;
+          .logo > a {
+            color: inherit;
+            font-style: italic;
+          }
+
+          .nav-menu {
+            li.menu-items > a {
+              color: $white;
+            }
+          }
+        }
+      }
+
+
+      .container {
+        background-color: $landing-page-bg;
+        color: $white;
+        font-style: italic;
+        .title {
+          font-style: inherit;
+        }
+        .book-btn{
+          font-size: 2rem;
+          font-style: normal;
+          background-color: $dark-clouds;
+          color: inherit;
+          border-radius: 2em;
+          outline: none;
+          border: none;
+        }
+        article {
+          p {
+            font-style: inherit;
+          }
+          img {
+          }
+        }
+        ul {
+          list-style-type: none;
+          li.black-boxes {
+            margin-bottom: 2px;
+            border: 23px solid #0f1626;
+          }
+        }
+      }
+    }
+  }
+
+  #sales-box {
+    background-color: $itenary-page-bg;
+    .sales-links {
+      text-align: center;
+      p {
+        color: $white;
+      }
+    }
+  }
+
+  #dest-info {
+    background-color: $itenary-page-bg;
+    color: $white;
+    article {
+      .day-count {
+        font-size: 1rem;
+        background-color: $landing-page-bg;
+      }
+      .day-heading {
+        font-weight: 400;
+      }
+      .day-breifing {
+        font-size: 1.3rem;
+        text-align: left;
+      }
+    }
+  }
+
+  #review {
+    background-color: $itenary-page-bg;
+    color: $white;
+    padding: 50px 0;
+  }
+}

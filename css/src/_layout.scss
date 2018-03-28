@@ -1,0 +1,118 @@
+body {
+  #landing-page{
+    .container-fluid{
+      height: 51vw;
+      padding: 0;
+      nav {
+        &.nav-settings {
+          padding: 0.2em 0;
+          border: none;
+          outline: none;
+          border-radius: 0px;
+          .logo > a {
+            margin-top: 16px;
+          }
+          ul.nav-menu {
+            margin: 16px 0;
+            list-style-type: none;
+            li.menu-items {
+              margin-right: 7%;
+              display: inline;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+
+      .container {
+        padding: 0;
+        .title {
+          padding: 0 25px;
+          margin-bottom: 20px;
+        }
+        .book-btn{
+          font-size: 2rem;
+        }
+
+        article {
+          height: 25vw;
+          p {
+            margin-right: 155px;
+          }
+          img {
+            float: right;
+            position: relative;
+            top: -14.5em;
+          }
+        }
+
+        img.col-lg-12 {
+          padding: 0;
+        }
+      }
+    }
+  }
+
+
+
+  #sales-box {
+    height: 33vw;
+    margin-top: 3em;
+    ul {
+      margin-top: -3em;
+      padding-top: 7em;
+      list-style-type: none;
+      li {
+        a {
+          img {
+            margin-bottom: 7px;
+            width: 60%;
+          }
+        }
+      }
+    }
+  }
+
+  #dest-info {
+    padding-bottom: 100px;
+    article {
+      margin-top: 3em;
+      p {
+        text-align: center;
+      }
+      p.day-count {
+        padding: 0.5em;
+        margin-bottom: 10px;
+      }
+      h2.day-heading {
+        margin-top: 0;
+        margin-bottom: 15px;
+        padding-left: 2px;
+      }
+      p.day-breifing{
+        padding-left: 50px;
+        padding-top: 50px;
+        padding-right: 50px;
+      }
+      img {
+        padding: 0;
+        margin-left: -1px;
+      }
+    }
+
+    .review {
+      margin-top: 4em;
+      input {
+        margin-bottom: 80px;
+      }
+      article {
+        margin: 1em 0;
+      }
+    }
+  }
+
+  footer {
+    padding: 70px 0;
+  }
+}

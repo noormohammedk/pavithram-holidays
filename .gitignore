@@ -1,7 +1,11 @@
 ### Sass ###
-
-.sass-cache/
+/node_modules
+/dist
+/.tmp
+/.sass-cache
+.sass-cache
 *.css.map
+/bower_component
 
 
 # End of https://www.gitignore.io/api/sass

@@ -1,3 +1,151 @@
+html {
+  font-size: 16px; }
+  html body {
+    font-size: 14px;
+    font-size: 1.4rem; }
+    html body img {
+      padding: 0; }
+    html body h1 {
+      font-size: 24px;
+      font-size: 2.4rem; }
+    html body a {
+      text-decoration: none; }
+    html body a:hover {
+      text-decoration: none; }
+    html body input {
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 50px;
+      padding: 10px 0; }
 
+body #landing-page .container-fluid {
+  height: 51vw;
+  padding: 0; }
+  body #landing-page .container-fluid nav.nav-settings {
+    padding: 0.2em 0;
+    border: none;
+    outline: none;
+    border-radius: 0px; }
+    body #landing-page .container-fluid nav.nav-settings .logo > a {
+      margin-top: 16px; }
+    body #landing-page .container-fluid nav.nav-settings ul.nav-menu {
+      margin: 16px 0;
+      list-style-type: none; }
+      body #landing-page .container-fluid nav.nav-settings ul.nav-menu li.menu-items {
+        margin-right: 7%;
+        display: inline;
+        text-align: center; }
+  body #landing-page .container-fluid .container {
+    padding: 0; }
+    body #landing-page .container-fluid .container .title {
+      padding: 0 25px;
+      margin-bottom: 20px; }
+    body #landing-page .container-fluid .container .book-btn {
+      font-size: 2rem; }
+    body #landing-page .container-fluid .container article {
+      height: 25vw; }
+      body #landing-page .container-fluid .container article p {
+        margin-right: 155px; }
+      body #landing-page .container-fluid .container article img {
+        float: right;
+        position: relative;
+        top: -14.5em; }
+    body #landing-page .container-fluid .container img.col-lg-12 {
+      padding: 0; }
+body #sales-box {
+  height: 33vw;
+  margin-top: 3em; }
+  body #sales-box ul {
+    margin-top: -3em;
+    padding-top: 7em;
+    list-style-type: none; }
+    body #sales-box ul li a img {
+      margin-bottom: 7px;
+      width: 60%; }
+body #dest-info {
+  padding-bottom: 100px; }
+  body #dest-info article {
+    margin-top: 3em; }
+    body #dest-info article p {
+      text-align: center; }
+    body #dest-info article p.day-count {
+      padding: 0.5em;
+      margin-bottom: 10px; }
+    body #dest-info article h2.day-heading {
+      margin-top: 0;
+      margin-bottom: 15px;
+      padding-left: 2px; }
+    body #dest-info article p.day-breifing {
+      padding-left: 50px;
+      padding-top: 50px;
+      padding-right: 50px; }
+    body #dest-info article img {
+      padding: 0;
+      margin-left: -1px; }
+  body #dest-info .review {
+    margin-top: 4em; }
+    body #dest-info .review input {
+      margin-bottom: 80px; }
+    body #dest-info .review article {
+      margin: 1em 0; }
+body footer {
+  padding: 70px 0; }
+
+body #landing-page .container-fluid {
+  background-color: #ff553d; }
+  body #landing-page .container-fluid nav.nav-settings {
+    background-color: #0f1626;
+    color: #fff; }
+    body #landing-page .container-fluid nav.nav-settings .logo > a {
+      color: inherit;
+      font-style: italic; }
+    body #landing-page .container-fluid nav.nav-settings .nav-menu li.menu-items > a {
+      color: #fff; }
+  body #landing-page .container-fluid .container {
+    background-color: #ff553d;
+    color: #fff;
+    font-style: italic; }
+    body #landing-page .container-fluid .container .title {
+      font-style: inherit; }
+    body #landing-page .container-fluid .container .book-btn {
+      font-size: 2rem;
+      font-style: normal;
+      background-color: #0f1626;
+      color: inherit;
+      border-radius: 2em;
+      outline: none;
+      border: none; }
+    body #landing-page .container-fluid .container article p {
+      font-style: inherit; }
+    body #landing-page .container-fluid .container ul {
+      list-style-type: none; }
+      body #landing-page .container-fluid .container ul li.black-boxes {
+        margin-bottom: 2px;
+        border: 23px solid #0f1626; }
+body #sales-box {
+  background-color: #333b4d; }
+  body #sales-box .sales-links {
+    text-align: center; }
+    body #sales-box .sales-links p {
+      color: #fff; }
+body #dest-info {
+  background-color: #333b4d;
+  color: #fff; }
+  body #dest-info article .day-count {
+    font-size: 1rem;
+    background-color: #ff553d; }
+  body #dest-info article .day-heading {
+    font-weight: 400; }
+  body #dest-info article .day-breifing {
+    font-size: 1.3rem;
+    text-align: left; }
+body #review {
+  background-color: #333b4d;
+  color: #fff;
+  padding: 50px 0; }
+
+@media (min-width: 1200px) {
+  #clouds {
+    padding: 0; } }
 
 /*# sourceMappingURL=styles.css.map */
