@@ -88,10 +88,14 @@ body #dest-info {
       margin-bottom: 80px; }
     body #dest-info .review article {
       margin: 1em 0; }
+      body #dest-info .review article p {
+        text-align: left; }
 body footer {
   padding: 50px 0; }
-  body footer .rights.col-lg-12 {
-    padding-top: 12px; }
+  body footer .rights {
+    padding: 0; }
+  body footer .social-media.col-lg-4 {
+    padding: 0; }
 
 body #landing-page .container-fluid {
   background-color: #ff553d; }
@@ -133,6 +137,15 @@ body #sales-box {
 body #dest-info {
   background-color: #333b4d;
   color: #fff; }
+  body #dest-info button {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid #fff; }
+    body #dest-info button.itenary {
+      background-color: #ff553d; }
+    body #dest-info button.destination {
+      background-color: #333b4d; }
   body #dest-info article .day-count {
     font-size: 1rem;
     background-color: #ff553d; }
@@ -141,6 +154,12 @@ body #dest-info {
   body #dest-info article .day-breifing {
     font-size: 1.3rem;
     text-align: left; }
+  body #dest-info .review input {
+    background-color: #333b4d;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+    border: 2px solid #fff; }
 body footer {
   background-color: #ff553d; }
   body footer address a {
@@ -149,7 +168,9 @@ body footer {
     color: #fff; }
   body footer .rights p {
     color: #fff;
-    font-size: 13px; }
+    font-size: 13px;
+    text-align: right;
+    margin-top: 50px; }
 
 @media (min-width: 1200px) {
   #clouds {

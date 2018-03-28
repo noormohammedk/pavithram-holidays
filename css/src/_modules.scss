@@ -67,6 +67,19 @@ body {
   #dest-info {
     background-color: $itenary-page-bg;
     color: $white;
+    button {
+      color: $white;
+      font-weight: bold;
+      font-size: 1rem;
+      border: 2px solid $white;
+      &.itenary {
+        background-color: $landing-page-bg;
+      }
+      &.destination {
+        background-color: $itenary-page-bg;
+      }
+    }
+
     article {
       .day-count {
         font-size: 1rem;
@@ -80,20 +93,35 @@ body {
         text-align: left;
       }
     }
+    .review {
+      input {
+        background-color: $itenary-page-bg;
+        color: $white;
+        font-weight: bold;
+        font-size: 2rem;
+        border: 2px solid $white;
+      }
+    }
   }
+
 
 
   footer{
     background-color: $landing-page-bg;
-    address a {
-      font-size: 1.5rem;
-      line-height: 2.5rem;
-      color: $white;
+    address {
+      a {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        color: $white;
+      }
     }
+
     .rights {
       p {
         color: $white;
         font-size: 13px;
+        text-align: right;
+        margin-top: 50px;
       }
     }
 
