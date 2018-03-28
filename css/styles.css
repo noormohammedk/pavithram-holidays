@@ -89,7 +89,9 @@ body #dest-info {
     body #dest-info .review article {
       margin: 1em 0; }
 body footer {
-  padding: 70px 0; }
+  padding: 50px 0; }
+  body footer .rights.col-lg-12 {
+    padding-top: 12px; }
 
 body #landing-page .container-fluid {
   background-color: #ff553d; }
@@ -139,10 +141,15 @@ body #dest-info {
   body #dest-info article .day-breifing {
     font-size: 1.3rem;
     text-align: left; }
-body #review {
-  background-color: #333b4d;
-  color: #fff;
-  padding: 50px 0; }
+body footer {
+  background-color: #ff553d; }
+  body footer address a {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #fff; }
+  body footer .rights p {
+    color: #fff;
+    font-size: 13px; }
 
 @media (min-width: 1200px) {
   #clouds {

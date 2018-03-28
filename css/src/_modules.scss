@@ -82,9 +82,20 @@ body {
     }
   }
 
-  #review {
-    background-color: $itenary-page-bg;
-    color: $white;
-    padding: 50px 0;
+
+  footer{
+    background-color: $landing-page-bg;
+    address a {
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      color: $white;
+    }
+    .rights {
+      p {
+        color: $white;
+        font-size: 13px;
+      }
+    }
+
   }
 }
