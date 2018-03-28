@@ -160,6 +160,8 @@ body #dest-info {
     font-weight: bold;
     font-size: 2rem;
     border: 2px solid #fff; }
+  body #dest-info .review article img {
+    border-radius: 50%; }
 body footer {
   background-color: #ff553d; }
   body footer address a {
@@ -170,7 +172,7 @@ body footer {
     color: #fff;
     font-size: 13px;
     text-align: right;
-    margin-top: 50px; }
+    margin-top: 100px; }
 
 @media (min-width: 1200px) {
   #clouds {
