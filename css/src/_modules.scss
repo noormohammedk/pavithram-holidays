@@ -3,6 +3,11 @@ body {
     .container-fluid {
       background-color: $landing-page-bg;
       nav {
+        transition-property: background-color;
+        transition-duration: 2s;
+        transition-timing-function: ease-in-out;
+        position: fixed;
+        z-index: 1;
         &.nav-settings {
           background-color: $dark-clouds;
           color: $white;
@@ -25,9 +30,13 @@ body {
         color: $white;
         font-style: italic;
         .title {
+          top: 90px;
           font-style: inherit;
         }
         .book-btn{
+          position: fixed;
+          top: 90px;
+          z-index: 1;
           font-size: 2rem;
           font-style: normal;
           background-color: $dark-clouds;
@@ -44,6 +53,7 @@ body {
           }
         }
         ul {
+          top: 91px;
           list-style-type: none;
           li.black-boxes {
             margin-bottom: 2px;
@@ -102,6 +112,13 @@ body {
         border: 2px solid $white;
       }
       article {
+        display: none;
+        h3 {
+          margin: 0 0 2px 0;
+        }
+        p {
+          font-size: 1.2rem;
+        }
         img {
           border-radius: 50%;
         }

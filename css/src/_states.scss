@@ -3,3 +3,24 @@
     padding: 0;
   }
 }
+
+body {
+  #dest-info {
+    .review {
+
+      .clicked {
+        display: block;
+        position: relative;
+        animation-name: slide;
+        animation-duration: 0.5s;
+        animation-direction: alternate;
+      }
+
+      @keyframes slide {
+        0%   {left: -720px; top:0px;}
+        50%  {left: 450px; top:0px}
+        100% {left: 0px; top:0px;}
+      }
+    }
+  }
+}

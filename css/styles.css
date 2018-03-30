@@ -25,7 +25,8 @@ html {
 
 body #landing-page .container-fluid {
   height: 51vw;
-  padding: 0; }
+  padding: 0;
+  position: relative; }
   body #landing-page .container-fluid nav.nav-settings {
     padding: 0.2em 0;
     border: none;
@@ -48,6 +49,7 @@ body #landing-page .container-fluid {
     body #landing-page .container-fluid .container .book-btn {
       font-size: 2rem; }
     body #landing-page .container-fluid .container article {
+      margin-top: 4em;
       height: 25vw; }
       body #landing-page .container-fluid .container article p {
         margin-right: 155px; }
@@ -104,21 +106,31 @@ body footer {
 
 body #landing-page .container-fluid {
   background-color: #ff553d; }
-  body #landing-page .container-fluid nav.nav-settings {
-    background-color: #0f1626;
-    color: #fff; }
-    body #landing-page .container-fluid nav.nav-settings .logo > a {
-      color: inherit;
-      font-style: italic; }
-    body #landing-page .container-fluid nav.nav-settings .nav-menu li.menu-items > a {
+  body #landing-page .container-fluid nav {
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    position: fixed;
+    z-index: 1; }
+    body #landing-page .container-fluid nav.nav-settings {
+      background-color: #0f1626;
       color: #fff; }
+      body #landing-page .container-fluid nav.nav-settings .logo > a {
+        color: inherit;
+        font-style: italic; }
+      body #landing-page .container-fluid nav.nav-settings .nav-menu li.menu-items > a {
+        color: #fff; }
   body #landing-page .container-fluid .container {
     background-color: #ff553d;
     color: #fff;
     font-style: italic; }
     body #landing-page .container-fluid .container .title {
+      top: 90px;
       font-style: inherit; }
     body #landing-page .container-fluid .container .book-btn {
+      position: fixed;
+      top: 90px;
+      z-index: 1;
       font-size: 2rem;
       font-style: normal;
       background-color: #0f1626;
@@ -129,6 +141,7 @@ body #landing-page .container-fluid {
     body #landing-page .container-fluid .container article p {
       font-style: inherit; }
     body #landing-page .container-fluid .container ul {
+      top: 91px;
       list-style-type: none; }
       body #landing-page .container-fluid .container ul li.black-boxes {
         margin-bottom: 2px;
@@ -165,8 +178,14 @@ body #dest-info {
     font-weight: bold;
     font-size: 2rem;
     border: 2px solid #fff; }
-  body #dest-info .review article img {
-    border-radius: 50%; }
+  body #dest-info .review article {
+    display: none; }
+    body #dest-info .review article h3 {
+      margin: 0 0 2px 0; }
+    body #dest-info .review article p {
+      font-size: 1.2rem; }
+    body #dest-info .review article img {
+      border-radius: 50%; }
 body footer {
   background-color: #ff553d; }
   body footer address a {
@@ -187,5 +206,21 @@ body footer {
 @media (min-width: 1200px) {
   #clouds {
     padding: 0; } }
+body #dest-info .review .clicked {
+  display: block;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 0.5s;
+  animation-direction: alternate; }
+@keyframes slide {
+  0% {
+    left: -720px;
+    top: 0px; }
+  50% {
+    left: 450px;
+    top: 0px; }
+  100% {
+    left: 0px;
+    top: 0px; } }
 
 /*# sourceMappingURL=styles.css.map */
