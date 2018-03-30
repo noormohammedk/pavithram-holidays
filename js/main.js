@@ -15,5 +15,6 @@
     articleArr.forEach(function (elm) {
       elm.classList.add("clicked");
     });
+    window.scrollTo(0,2700);
   });
 }());
